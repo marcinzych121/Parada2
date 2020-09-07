@@ -220,6 +220,10 @@ h6 {
 
 #main-nav .logo {
     /* width: 180px; */
+    position: relative;
+    animation-name: goRight;
+    animation-duration: 2s;
+    /* animation-delay: 1s; */
 }
 
 #main-nav ul {
@@ -378,6 +382,15 @@ h6 {
 
 
 /* Animation for nav buttons */
+
+@keyframes goRight {
+    0% {
+        left: -600px;
+    }
+    100% {
+        left: 0;
+    }
+}
 
 @keyframes goDown {
     0% {
